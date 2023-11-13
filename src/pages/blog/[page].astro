@@ -22,7 +22,7 @@ const page = Astro.props.page;
 
 <Layout title="Blog Posts">
     <h1 class="text-heading-1 mt-8"> Blog Posts</h1>
-    <PostsList posts={page.data} />
+    <PostsList posts={page.data} start={page.start + 1} />
 
     <div class="mt-8 flex justify-center gap-4">
       <div class="w-24 text-end">
