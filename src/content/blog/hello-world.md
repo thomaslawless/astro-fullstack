@@ -1,5 +1,5 @@
 ---
-title: a post!
+title: Hello, world!
 tags: ['hello', 'world']
 date: 2023-09-18
 ---
