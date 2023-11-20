@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import { Image } from 'astro:assets';
 import Cat from '../assets/cat.jpg';
 ---
-<Layout title="About"> 
+<Layout seo={{ title: "About", description: "Full stack with Astro"}}> 
     <h1>About</h1>
     <Image src={Cat} alt="cat photo" class="rounded-full" quality="max" width={512} />
     <p>About page</p>

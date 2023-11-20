@@ -20,7 +20,7 @@ const page = Astro.props.page;
 ---
 
 
-<Layout title="Blog Posts">
+<Layout seo={{ title: "First Page" }}>
     <h1 class="text-heading-1 mt-8"> Blog Posts</h1>
     <PostsList posts={page.data} start={page.start + 1} />
 
